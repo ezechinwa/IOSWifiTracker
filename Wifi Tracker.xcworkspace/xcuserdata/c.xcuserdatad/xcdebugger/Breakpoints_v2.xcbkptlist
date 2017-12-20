@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wifi Tracker/Controller/PublicMapViewController.swift"
+            timestampString = "535395419.96147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "PublicMapViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wifi Tracker/Controller/paymentViewController.swift"
+            timestampString = "535395419.961853"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "paymentViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wifi_Tracker.paymentViewController.__deallocating_deinit"
+                  moduleName = "Wifi Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c/Desktop/Wifi%20Tracker/Wifi%20Tracker/Controller/paymentViewController.swift"
+                  timestampString = "533319897.346817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wifi_Tracker.paymentViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Wifi_Tracker.paymentViewController"
+                  moduleName = "Wifi Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c/Desktop/Wifi%20Tracker/Wifi%20Tracker/Controller/paymentViewController.swift"
+                  timestampString = "533319897.351147"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wifi_Tracker.paymentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Wifi_Tracker.paymentViewController"
+                  moduleName = "Wifi Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c/Desktop/Wifi%20Tracker/Wifi%20Tracker/Controller/paymentViewController.swift"
+                  timestampString = "533319897.352769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wifi_Tracker.paymentViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Wifi_Tracker.paymentViewController&gt;"
+                  moduleName = "Wifi Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c/Desktop/Wifi%20Tracker/Wifi%20Tracker/Controller/paymentViewController.swift"
+                  timestampString = "533319897.354312"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wifi_Tracker.paymentViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Wifi_Tracker.paymentViewController&gt;"
+                  moduleName = "Wifi Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c/Desktop/Wifi%20Tracker/Wifi%20Tracker/Controller/paymentViewController.swift"
+                  timestampString = "533319897.356427"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

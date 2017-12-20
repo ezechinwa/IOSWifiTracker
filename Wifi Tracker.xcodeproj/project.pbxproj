@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020464DD1FC49CC200BC4F88 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020464DC1FC49CC200BC4F88 /* SearchResultsController.swift */; };
+		020E53D21FA8E69900BE232F /* GetMacAddressClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020E53D11FA8E69900BE232F /* GetMacAddressClass.swift */; };
+		0212EFF11FB3728000806444 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212EFF01FB3728000806444 /* XMLParser.swift */; };
+		0212EFF31FB37A9900806444 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212EFF21FB37A9900806444 /* JSONParsing.swift */; };
+		0221ECB61FA8BC7200ECDA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221ECB51FA8BC7200ECDA7E /* AppDelegate.swift */; };
+		0221ECBB1FA8BC7200ECDA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0221ECB91FA8BC7200ECDA7E /* Main.storyboard */; };
+		0221ECC01FA8BC7200ECDA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0221ECBE1FA8BC7200ECDA7E /* LaunchScreen.storyboard */; };
+		025C53121FBC8C4000BB3587 /* clustering.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025C53111FBC8C4000BB3587 /* clustering.xcassets */; };
+		025C53171FBC8C7400BB3587 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 025C53151FBC8C7400BB3587 /* Contents.json */; };
+		025C531D1FBCC3C000BB3587 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 025C531C1FBCC3C000BB3587 /* GoogleMaps.bundle */; };
+		025D97E21FC6CF6600470A7C /* userProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D97E11FC6CF6600470A7C /* userProfileController.swift */; };
+		025D97E41FC70B3500470A7C /* paymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D97E31FC70B3500470A7C /* paymentViewController.swift */; };
+		025D97E61FC70FA100470A7C /* browserWebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D97E51FC70FA100470A7C /* browserWebKitViewController.swift */; };
+		026A03F11FCC3DC80084B419 /* connectControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A03F01FCC3DC80084B419 /* connectControllerView.swift */; };
+		0272E0981FB07D55000A1318 /* MainMapwithNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272E0971FB07D55000A1318 /* MainMapwithNavigationViewController.swift */; };
+		0272E09A1FB088E1000A1318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272E0991FB088E1000A1318 /* ViewController.swift */; };
+		0272E09C1FB0B274000A1318 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0272E09B1FB0B274000A1318 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		0275CE041FC5D17300299697 /* SWRevealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 0272E0941FB074F9000A1318 /* SWRevealViewController.h */; };
+		0275CE051FC5D17300299697 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0272E0951FB074F9000A1318 /* SWRevealViewController.m */; };
+		02885F8E1FC2F20500F4E83F /* GMUGridBasedClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F4C1FC2F20400F4E83F /* GMUGridBasedClusterAlgorithm.m */; };
+		02885F8F1FC2F20500F4E83F /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F4E1FC2F20400F4E83F /* GMUNonHierarchicalDistanceBasedAlgorithm.m */; };
+		02885F901FC2F20500F4E83F /* GMUSimpleClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F501FC2F20400F4E83F /* GMUSimpleClusterAlgorithm.m */; };
+		02885F911FC2F20500F4E83F /* GMUWrappingDictionaryKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F521FC2F20400F4E83F /* GMUWrappingDictionaryKey.m */; };
+		02885F921FC2F20500F4E83F /* GMUClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F571FC2F20400F4E83F /* GMUClusterManager.m */; };
+		02885F931FC2F20500F4E83F /* GMUStaticCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F5A1FC2F20400F4E83F /* GMUStaticCluster.m */; };
+		02885F941FC2F20500F4E83F /* GMUDefaultClusterIconGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F601FC2F20400F4E83F /* GMUDefaultClusterIconGenerator.m */; };
+		02885F951FC2F20500F4E83F /* GMUDefaultClusterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F631FC2F20400F4E83F /* GMUDefaultClusterRenderer.m */; };
+		02885F961FC2F20500F4E83F /* GQTPointQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F681FC2F20500F4E83F /* GQTPointQuadTree.m */; };
+		02885F971FC2F20500F4E83F /* GQTPointQuadTreeChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F6A1FC2F20500F4E83F /* GQTPointQuadTreeChild.m */; };
+		02885F981FC2F20500F4E83F /* GMUGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F6E1FC2F20500F4E83F /* GMUGradient.m */; };
+		02885F991FC2F20500F4E83F /* GMUHeatmapTileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F701FC2F20500F4E83F /* GMUHeatmapTileLayer.m */; };
+		02885F9A1FC2F20500F4E83F /* GMUWeightedLatLng.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F721FC2F20500F4E83F /* GMUWeightedLatLng.m */; };
+		02885F9B1FC2F20500F4E83F /* GMUGeoJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F751FC2F20500F4E83F /* GMUGeoJSONParser.m */; };
+		02885F9C1FC2F20500F4E83F /* GMUGeometryRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F781FC2F20500F4E83F /* GMUGeometryRenderer.m */; };
+		02885F9D1FC2F20500F4E83F /* GMUKMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F7A1FC2F20500F4E83F /* GMUKMLParser.m */; };
+		02885F9E1FC2F20500F4E83F /* GMUFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F7D1FC2F20500F4E83F /* GMUFeature.m */; };
+		02885F9F1FC2F20500F4E83F /* GMUGeometryCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F801FC2F20500F4E83F /* GMUGeometryCollection.m */; };
+		02885FA01FC2F20500F4E83F /* GMUGroundOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F831FC2F20500F4E83F /* GMUGroundOverlay.m */; };
+		02885FA11FC2F20500F4E83F /* GMULineString.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F851FC2F20500F4E83F /* GMULineString.m */; };
+		02885FA21FC2F20500F4E83F /* GMUPlacemark.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F871FC2F20500F4E83F /* GMUPlacemark.m */; };
+		02885FA31FC2F20500F4E83F /* GMUPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F891FC2F20500F4E83F /* GMUPoint.m */; };
+		02885FA41FC2F20500F4E83F /* GMUPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F8B1FC2F20500F4E83F /* GMUPolygon.m */; };
+		02885FA51FC2F20500F4E83F /* GMUStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885F8D1FC2F20500F4E83F /* GMUStyle.m */; };
+		0298C4311FE90DD20003E87D /* contactSignedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298C4301FE90DD20003E87D /* contactSignedInViewController.swift */; };
+		0298C4331FE957E90003E87D /* publicContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298C4321FE957E90003E87D /* publicContactViewController.swift */; };
+		0298C4351FE962BC0003E87D /* connectControllerPublicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298C4341FE962BC0003E87D /* connectControllerPublicViewController.swift */; };
+		02C709E61FA9C88C00A09648 /* Constant_Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C709E51FA9C88C00A09648 /* Constant_Values.swift */; };
+		02C709E81FAA482400A09648 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C709E71FAA482400A09648 /* MapViewController.swift */; };
+		02C709EA1FAA486000A09648 /* PublicMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C709E91FAA486000A09648 /* PublicMapViewController.swift */; };
+		02CD36CE1FCD90F500BD6633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0221ECBC1FA8BC7200ECDA7E /* Assets.xcassets */; };
+		02EA29EE1FB765F700034778 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA29ED1FB765F700034778 /* Marker.swift */; };
+		8129AB496C56AD52D298FE0E /* Pods_Wifi_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4393F2C904B3E157924E5D19 /* Pods_Wifi_Tracker.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020464DC1FC49CC200BC4F88 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		020E53D11FA8E69900BE232F /* GetMacAddressClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMacAddressClass.swift; sourceTree = "<group>"; };
+		0212EFF01FB3728000806444 /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		0212EFF21FB37A9900806444 /* JSONParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
+		022075C51FC0994C00FC7612 /* googlemarkers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = googlemarkers.h; sourceTree = "<group>"; };
+		022075C61FC0996A00FC7612 /* googleMarkerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = googleMarkerHeader.h; sourceTree = "<group>"; };
+		0221ECB21FA8BC7200ECDA7E /* Wifi Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wifi Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0221ECB51FA8BC7200ECDA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0221ECBA1FA8BC7200ECDA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0221ECBC1FA8BC7200ECDA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0221ECBF1FA8BC7200ECDA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0221ECC11FA8BC7200ECDA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025C53111FBC8C4000BB3587 /* clustering.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = clustering.xcassets; path = ../../../Downloads/clustering/clustering.xcassets; sourceTree = "<group>"; };
+		025C53151FBC8C7400BB3587 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = ../../../Downloads/clustering/clustering.xcassets/Contents.json; sourceTree = "<group>"; };
+		025C531C1FBCC3C000BB3587 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		025D97E11FC6CF6600470A7C /* userProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileController.swift; sourceTree = "<group>"; };
+		025D97E31FC70B3500470A7C /* paymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentViewController.swift; sourceTree = "<group>"; };
+		025D97E51FC70FA100470A7C /* browserWebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = browserWebKitViewController.swift; sourceTree = "<group>"; };
+		026A03F01FCC3DC80084B419 /* connectControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectControllerView.swift; sourceTree = "<group>"; };
+		026A03F41FCC52450084B419 /* Wifi Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wifi Tracker.entitlements"; sourceTree = "<group>"; };
+		0272E0901FB0696A000A1318 /* Wifi Tracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wifi Tracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		0272E0941FB074F9000A1318 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		0272E0951FB074F9000A1318 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		0272E0971FB07D55000A1318 /* MainMapwithNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapwithNavigationViewController.swift; sourceTree = "<group>"; };
+		0272E0991FB088E1000A1318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0272E09B1FB0B274000A1318 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		02885F4A1FC2F20400F4E83F /* GMUClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterAlgorithm.h; sourceTree = "<group>"; };
+		02885F4B1FC2F20400F4E83F /* GMUGridBasedClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGridBasedClusterAlgorithm.h; sourceTree = "<group>"; };
+		02885F4C1FC2F20400F4E83F /* GMUGridBasedClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGridBasedClusterAlgorithm.m; sourceTree = "<group>"; };
+		02885F4D1FC2F20400F4E83F /* GMUNonHierarchicalDistanceBasedAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUNonHierarchicalDistanceBasedAlgorithm.h; sourceTree = "<group>"; };
+		02885F4E1FC2F20400F4E83F /* GMUNonHierarchicalDistanceBasedAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUNonHierarchicalDistanceBasedAlgorithm.m; sourceTree = "<group>"; };
+		02885F4F1FC2F20400F4E83F /* GMUSimpleClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUSimpleClusterAlgorithm.h; sourceTree = "<group>"; };
+		02885F501FC2F20400F4E83F /* GMUSimpleClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUSimpleClusterAlgorithm.m; sourceTree = "<group>"; };
+		02885F511FC2F20400F4E83F /* GMUWrappingDictionaryKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUWrappingDictionaryKey.h; sourceTree = "<group>"; };
+		02885F521FC2F20400F4E83F /* GMUWrappingDictionaryKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUWrappingDictionaryKey.m; sourceTree = "<group>"; };
+		02885F531FC2F20400F4E83F /* GMUCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUCluster.h; sourceTree = "<group>"; };
+		02885F541FC2F20400F4E83F /* GMUClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterItem.h; sourceTree = "<group>"; };
+		02885F551FC2F20400F4E83F /* GMUClusterManager+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUClusterManager+Testing.h"; sourceTree = "<group>"; };
+		02885F561FC2F20400F4E83F /* GMUClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterManager.h; sourceTree = "<group>"; };
+		02885F571FC2F20400F4E83F /* GMUClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUClusterManager.m; sourceTree = "<group>"; };
+		02885F581FC2F20400F4E83F /* GMUMarkerClustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUMarkerClustering.h; sourceTree = "<group>"; };
+		02885F591FC2F20400F4E83F /* GMUStaticCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUStaticCluster.h; sourceTree = "<group>"; };
+		02885F5A1FC2F20400F4E83F /* GMUStaticCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUStaticCluster.m; sourceTree = "<group>"; };
+		02885F5C1FC2F20400F4E83F /* GMUClusterIconGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterIconGenerator.h; sourceTree = "<group>"; };
+		02885F5D1FC2F20400F4E83F /* GMUClusterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterRenderer.h; sourceTree = "<group>"; };
+		02885F5E1FC2F20400F4E83F /* GMUDefaultClusterIconGenerator+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUDefaultClusterIconGenerator+Testing.h"; sourceTree = "<group>"; };
+		02885F5F1FC2F20400F4E83F /* GMUDefaultClusterIconGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUDefaultClusterIconGenerator.h; sourceTree = "<group>"; };
+		02885F601FC2F20400F4E83F /* GMUDefaultClusterIconGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUDefaultClusterIconGenerator.m; sourceTree = "<group>"; };
+		02885F611FC2F20400F4E83F /* GMUDefaultClusterRenderer+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUDefaultClusterRenderer+Testing.h"; sourceTree = "<group>"; };
+		02885F621FC2F20400F4E83F /* GMUDefaultClusterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUDefaultClusterRenderer.h; sourceTree = "<group>"; };
+		02885F631FC2F20400F4E83F /* GMUDefaultClusterRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUDefaultClusterRenderer.m; sourceTree = "<group>"; };
+		02885F651FC2F20500F4E83F /* GQTBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTBounds.h; sourceTree = "<group>"; };
+		02885F661FC2F20500F4E83F /* GQTPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPoint.h; sourceTree = "<group>"; };
+		02885F671FC2F20500F4E83F /* GQTPointQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPointQuadTree.h; sourceTree = "<group>"; };
+		02885F681FC2F20500F4E83F /* GQTPointQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTPointQuadTree.m; sourceTree = "<group>"; };
+		02885F691FC2F20500F4E83F /* GQTPointQuadTreeChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPointQuadTreeChild.h; sourceTree = "<group>"; };
+		02885F6A1FC2F20500F4E83F /* GQTPointQuadTreeChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTPointQuadTreeChild.m; sourceTree = "<group>"; };
+		02885F6B1FC2F20500F4E83F /* GQTPointQuadTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPointQuadTreeItem.h; sourceTree = "<group>"; };
+		02885F6D1FC2F20500F4E83F /* GMUGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGradient.h; sourceTree = "<group>"; };
+		02885F6E1FC2F20500F4E83F /* GMUGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGradient.m; sourceTree = "<group>"; };
+		02885F6F1FC2F20500F4E83F /* GMUHeatmapTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUHeatmapTileLayer.h; sourceTree = "<group>"; };
+		02885F701FC2F20500F4E83F /* GMUHeatmapTileLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUHeatmapTileLayer.m; sourceTree = "<group>"; };
+		02885F711FC2F20500F4E83F /* GMUWeightedLatLng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUWeightedLatLng.h; sourceTree = "<group>"; };
+		02885F721FC2F20500F4E83F /* GMUWeightedLatLng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUWeightedLatLng.m; sourceTree = "<group>"; };
+		02885F741FC2F20500F4E83F /* GMUGeoJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeoJSONParser.h; sourceTree = "<group>"; };
+		02885F751FC2F20500F4E83F /* GMUGeoJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGeoJSONParser.m; sourceTree = "<group>"; };
+		02885F761FC2F20500F4E83F /* GMUGeometryRenderer+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUGeometryRenderer+Testing.h"; sourceTree = "<group>"; };
+		02885F771FC2F20500F4E83F /* GMUGeometryRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometryRenderer.h; sourceTree = "<group>"; };
+		02885F781FC2F20500F4E83F /* GMUGeometryRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGeometryRenderer.m; sourceTree = "<group>"; };
+		02885F791FC2F20500F4E83F /* GMUKMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUKMLParser.h; sourceTree = "<group>"; };
+		02885F7A1FC2F20500F4E83F /* GMUKMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUKMLParser.m; sourceTree = "<group>"; };
+		02885F7C1FC2F20500F4E83F /* GMUFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUFeature.h; sourceTree = "<group>"; };
+		02885F7D1FC2F20500F4E83F /* GMUFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUFeature.m; sourceTree = "<group>"; };
+		02885F7E1FC2F20500F4E83F /* GMUGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometry.h; sourceTree = "<group>"; };
+		02885F7F1FC2F20500F4E83F /* GMUGeometryCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometryCollection.h; sourceTree = "<group>"; };
+		02885F801FC2F20500F4E83F /* GMUGeometryCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGeometryCollection.m; sourceTree = "<group>"; };
+		02885F811FC2F20500F4E83F /* GMUGeometryContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometryContainer.h; sourceTree = "<group>"; };
+		02885F821FC2F20500F4E83F /* GMUGroundOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGroundOverlay.h; sourceTree = "<group>"; };
+		02885F831FC2F20500F4E83F /* GMUGroundOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGroundOverlay.m; sourceTree = "<group>"; };
+		02885F841FC2F20500F4E83F /* GMULineString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMULineString.h; sourceTree = "<group>"; };
+		02885F851FC2F20500F4E83F /* GMULineString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMULineString.m; sourceTree = "<group>"; };
+		02885F861FC2F20500F4E83F /* GMUPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUPlacemark.h; sourceTree = "<group>"; };
+		02885F871FC2F20500F4E83F /* GMUPlacemark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUPlacemark.m; sourceTree = "<group>"; };
+		02885F881FC2F20500F4E83F /* GMUPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUPoint.h; sourceTree = "<group>"; };
+		02885F891FC2F20500F4E83F /* GMUPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUPoint.m; sourceTree = "<group>"; };
+		02885F8A1FC2F20500F4E83F /* GMUPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUPolygon.h; sourceTree = "<group>"; };
+		02885F8B1FC2F20500F4E83F /* GMUPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUPolygon.m; sourceTree = "<group>"; };
+		02885F8C1FC2F20500F4E83F /* GMUStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUStyle.h; sourceTree = "<group>"; };
+		02885F8D1FC2F20500F4E83F /* GMUStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUStyle.m; sourceTree = "<group>"; };
+		0298C4301FE90DD20003E87D /* contactSignedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactSignedInViewController.swift; sourceTree = "<group>"; };
+		0298C4321FE957E90003E87D /* publicContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publicContactViewController.swift; sourceTree = "<group>"; };
+		0298C4341FE962BC0003E87D /* connectControllerPublicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectControllerPublicViewController.swift; sourceTree = "<group>"; };
+		02C709E51FA9C88C00A09648 /* Constant_Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant_Values.swift; sourceTree = "<group>"; };
+		02C709E71FAA482400A09648 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		02C709E91FAA486000A09648 /* PublicMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicMapViewController.swift; sourceTree = "<group>"; };
+		02EA29ED1FB765F700034778 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		4393F2C904B3E157924E5D19 /* Pods_Wifi_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wifi_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451C5BFDE2729A937E13EBA9 /* Pods-Wifi Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wifi Tracker/Pods-Wifi Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		85CDD128ECBDAF00C63705CB /* Pods-Wifi Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wifi Tracker/Pods-Wifi Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0221ECAF1FA8BC7200ECDA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272E09C1FB0B274000A1318 /* MapKit.framework in Frameworks */,
+				8129AB496C56AD52D298FE0E /* Pods_Wifi_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0205FD221FA8D7A7001A5511 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0205FD231FA8D7B6001A5511 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0272E0941FB074F9000A1318 /* SWRevealViewController.h */,
+				0272E0951FB074F9000A1318 /* SWRevealViewController.m */,
+				0221ECB91FA8BC7200ECDA7E /* Main.storyboard */,
+				0221ECBE1FA8BC7200ECDA7E /* LaunchScreen.storyboard */,
+				0272E0901FB0696A000A1318 /* Wifi Tracker-Bridging-Header.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0205FD241FA8D7CB001A5511 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02C709E71FAA482400A09648 /* MapViewController.swift */,
+				02C709E91FAA486000A09648 /* PublicMapViewController.swift */,
+				0272E0971FB07D55000A1318 /* MainMapwithNavigationViewController.swift */,
+				0272E0991FB088E1000A1318 /* ViewController.swift */,
+				020464DC1FC49CC200BC4F88 /* SearchResultsController.swift */,
+				025D97E11FC6CF6600470A7C /* userProfileController.swift */,
+				025D97E31FC70B3500470A7C /* paymentViewController.swift */,
+				025D97E51FC70FA100470A7C /* browserWebKitViewController.swift */,
+				026A03F01FCC3DC80084B419 /* connectControllerView.swift */,
+				0298C4301FE90DD20003E87D /* contactSignedInViewController.swift */,
+				0298C4321FE957E90003E87D /* publicContactViewController.swift */,
+				0298C4341FE962BC0003E87D /* connectControllerPublicViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0205FD251FA8D7F9001A5511 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				020E53D11FA8E69900BE232F /* GetMacAddressClass.swift */,
+				02C709E51FA9C88C00A09648 /* Constant_Values.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		021DD9861FAB5EF700E3FA9A /* SideNavs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SideNavs;
+			sourceTree = "<group>";
+		};
+		0221ECA91FA8BC7200ECDA7E = {
+			isa = PBXGroup;
+			children = (
+				02885F471FC2F12400F4E83F /* Google-Maps-iOS-Utils */,
+				022075C61FC0996A00FC7612 /* googleMarkerHeader.h */,
+				022075C51FC0994C00FC7612 /* googlemarkers.h */,
+				0221ECB41FA8BC7200ECDA7E /* Wifi Tracker */,
+				0221ECB31FA8BC7200ECDA7E /* Products */,
+				DBD06D380E54D75FD1C3C737 /* Pods */,
+				AE4852CBB7575C234B17D56F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0221ECB31FA8BC7200ECDA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0221ECB21FA8BC7200ECDA7E /* Wifi Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0221ECB41FA8BC7200ECDA7E /* Wifi Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				026A03F41FCC52450084B419 /* Wifi Tracker.entitlements */,
+				025C530C1FBC7A1700BB3587 /* Delegates */,
+				02572FD41FB30E6B008EA76D /* Utilities */,
+				021DD9861FAB5EF700E3FA9A /* SideNavs */,
+				0205FD251FA8D7F9001A5511 /* Constants */,
+				0205FD241FA8D7CB001A5511 /* Controller */,
+				0205FD231FA8D7B6001A5511 /* View */,
+				0205FD221FA8D7A7001A5511 /* Model */,
+				0221ECB51FA8BC7200ECDA7E /* AppDelegate.swift */,
+				0221ECBC1FA8BC7200ECDA7E /* Assets.xcassets */,
+				025C53111FBC8C4000BB3587 /* clustering.xcassets */,
+				025C53151FBC8C7400BB3587 /* Contents.json */,
+				0221ECC11FA8BC7200ECDA7E /* Info.plist */,
+			);
+			path = "Wifi Tracker";
+			sourceTree = "<group>";
+		};
+		02572FD41FB30E6B008EA76D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0212EFF01FB3728000806444 /* XMLParser.swift */,
+				0212EFF21FB37A9900806444 /* JSONParsing.swift */,
+				02EA29ED1FB765F700034778 /* Marker.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		025C530C1FBC7A1700BB3587 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		02885F471FC2F12400F4E83F /* Google-Maps-iOS-Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02885F481FC2F20400F4E83F /* Clustering */,
+				02885F731FC2F20500F4E83F /* Geometry */,
+				02885F6C1FC2F20500F4E83F /* Heatmap */,
+				02885F641FC2F20500F4E83F /* QuadTree */,
+			);
+			path = "Google-Maps-iOS-Utils";
+			sourceTree = "<group>";
+		};
+		02885F481FC2F20400F4E83F /* Clustering */ = {
+			isa = PBXGroup;
+			children = (
+				02885F491FC2F20400F4E83F /* Algo */,
+				02885F531FC2F20400F4E83F /* GMUCluster.h */,
+				02885F541FC2F20400F4E83F /* GMUClusterItem.h */,
+				02885F551FC2F20400F4E83F /* GMUClusterManager+Testing.h */,
+				02885F561FC2F20400F4E83F /* GMUClusterManager.h */,
+				02885F571FC2F20400F4E83F /* GMUClusterManager.m */,
+				02885F581FC2F20400F4E83F /* GMUMarkerClustering.h */,
+				02885F591FC2F20400F4E83F /* GMUStaticCluster.h */,
+				02885F5A1FC2F20400F4E83F /* GMUStaticCluster.m */,
+				02885F5B1FC2F20400F4E83F /* View */,
+			);
+			name = Clustering;
+			path = "../../../Downloads/google-maps-ios-utils-master/src/Clustering";
+			sourceTree = "<group>";
+		};
+		02885F491FC2F20400F4E83F /* Algo */ = {
+			isa = PBXGroup;
+			children = (
+				02885F4A1FC2F20400F4E83F /* GMUClusterAlgorithm.h */,
+				02885F4B1FC2F20400F4E83F /* GMUGridBasedClusterAlgorithm.h */,
+				02885F4C1FC2F20400F4E83F /* GMUGridBasedClusterAlgorithm.m */,
+				02885F4D1FC2F20400F4E83F /* GMUNonHierarchicalDistanceBasedAlgorithm.h */,
+				02885F4E1FC2F20400F4E83F /* GMUNonHierarchicalDistanceBasedAlgorithm.m */,
+				02885F4F1FC2F20400F4E83F /* GMUSimpleClusterAlgorithm.h */,
+				02885F501FC2F20400F4E83F /* GMUSimpleClusterAlgorithm.m */,
+				02885F511FC2F20400F4E83F /* GMUWrappingDictionaryKey.h */,
+				02885F521FC2F20400F4E83F /* GMUWrappingDictionaryKey.m */,
+			);
+			path = Algo;
+			sourceTree = "<group>";
+		};
+		02885F5B1FC2F20400F4E83F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02885F5C1FC2F20400F4E83F /* GMUClusterIconGenerator.h */,
+				02885F5D1FC2F20400F4E83F /* GMUClusterRenderer.h */,
+				02885F5E1FC2F20400F4E83F /* GMUDefaultClusterIconGenerator+Testing.h */,
+				02885F5F1FC2F20400F4E83F /* GMUDefaultClusterIconGenerator.h */,
+				02885F601FC2F20400F4E83F /* GMUDefaultClusterIconGenerator.m */,
+				02885F611FC2F20400F4E83F /* GMUDefaultClusterRenderer+Testing.h */,
+				02885F621FC2F20400F4E83F /* GMUDefaultClusterRenderer.h */,
+				02885F631FC2F20400F4E83F /* GMUDefaultClusterRenderer.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02885F641FC2F20500F4E83F /* QuadTree */ = {
+			isa = PBXGroup;
+			children = (
+				02885F651FC2F20500F4E83F /* GQTBounds.h */,
+				02885F661FC2F20500F4E83F /* GQTPoint.h */,
+				02885F671FC2F20500F4E83F /* GQTPointQuadTree.h */,
+				02885F681FC2F20500F4E83F /* GQTPointQuadTree.m */,
+				02885F691FC2F20500F4E83F /* GQTPointQuadTreeChild.h */,
+				02885F6A1FC2F20500F4E83F /* GQTPointQuadTreeChild.m */,
+				02885F6B1FC2F20500F4E83F /* GQTPointQuadTreeItem.h */,
+			);
+			name = QuadTree;
+			path = "../../../Downloads/google-maps-ios-utils-master/src/QuadTree";
+			sourceTree = "<group>";
+		};
+		02885F6C1FC2F20500F4E83F /* Heatmap */ = {
+			isa = PBXGroup;
+			children = (
+				02885F6D1FC2F20500F4E83F /* GMUGradient.h */,
+				02885F6E1FC2F20500F4E83F /* GMUGradient.m */,
+				02885F6F1FC2F20500F4E83F /* GMUHeatmapTileLayer.h */,
+				02885F701FC2F20500F4E83F /* GMUHeatmapTileLayer.m */,
+				02885F711FC2F20500F4E83F /* GMUWeightedLatLng.h */,
+				02885F721FC2F20500F4E83F /* GMUWeightedLatLng.m */,
+			);
+			name = Heatmap;
+			path = "../../../Downloads/google-maps-ios-utils-master/src/Heatmap";
+			sourceTree = "<group>";
+		};
+		02885F731FC2F20500F4E83F /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				02885F741FC2F20500F4E83F /* GMUGeoJSONParser.h */,
+				02885F751FC2F20500F4E83F /* GMUGeoJSONParser.m */,
+				02885F761FC2F20500F4E83F /* GMUGeometryRenderer+Testing.h */,
+				02885F771FC2F20500F4E83F /* GMUGeometryRenderer.h */,
+				02885F781FC2F20500F4E83F /* GMUGeometryRenderer.m */,
+				02885F791FC2F20500F4E83F /* GMUKMLParser.h */,
+				02885F7A1FC2F20500F4E83F /* GMUKMLParser.m */,
+				02885F7B1FC2F20500F4E83F /* Model */,
+			);
+			name = Geometry;
+			path = "../../../Downloads/google-maps-ios-utils-master/src/Geometry";
+			sourceTree = "<group>";
+		};
+		02885F7B1FC2F20500F4E83F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02885F7C1FC2F20500F4E83F /* GMUFeature.h */,
+				02885F7D1FC2F20500F4E83F /* GMUFeature.m */,
+				02885F7E1FC2F20500F4E83F /* GMUGeometry.h */,
+				02885F7F1FC2F20500F4E83F /* GMUGeometryCollection.h */,
+				02885F801FC2F20500F4E83F /* GMUGeometryCollection.m */,
+				02885F811FC2F20500F4E83F /* GMUGeometryContainer.h */,
+				02885F821FC2F20500F4E83F /* GMUGroundOverlay.h */,
+				02885F831FC2F20500F4E83F /* GMUGroundOverlay.m */,
+				02885F841FC2F20500F4E83F /* GMULineString.h */,
+				02885F851FC2F20500F4E83F /* GMULineString.m */,
+				02885F861FC2F20500F4E83F /* GMUPlacemark.h */,
+				02885F871FC2F20500F4E83F /* GMUPlacemark.m */,
+				02885F881FC2F20500F4E83F /* GMUPoint.h */,
+				02885F891FC2F20500F4E83F /* GMUPoint.m */,
+				02885F8A1FC2F20500F4E83F /* GMUPolygon.h */,
+				02885F8B1FC2F20500F4E83F /* GMUPolygon.m */,
+				02885F8C1FC2F20500F4E83F /* GMUStyle.h */,
+				02885F8D1FC2F20500F4E83F /* GMUStyle.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE4852CBB7575C234B17D56F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				025C531C1FBCC3C000BB3587 /* GoogleMaps.bundle */,
+				0272E09B1FB0B274000A1318 /* MapKit.framework */,
+				4393F2C904B3E157924E5D19 /* Pods_Wifi_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD06D380E54D75FD1C3C737 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85CDD128ECBDAF00C63705CB /* Pods-Wifi Tracker.debug.xcconfig */,
+				451C5BFDE2729A937E13EBA9 /* Pods-Wifi Tracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0221ECB11FA8BC7200ECDA7E /* Wifi Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0221ECC41FA8BC7200ECDA7E /* Build configuration list for PBXNativeTarget "Wifi Tracker" */;
+			buildPhases = (
+				4B3F12787E0A1EF69C1E9A32 /* [CP] Check Pods Manifest.lock */,
+				0221ECAE1FA8BC7200ECDA7E /* Sources */,
+				0221ECAF1FA8BC7200ECDA7E /* Frameworks */,
+				0221ECB01FA8BC7200ECDA7E /* Resources */,
+				1A9E63318F0F09C6331FF588 /* [CP] Embed Pods Frameworks */,
+				5D35E96358949315113FE6EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wifi Tracker";
+			productName = "Wifi Tracker";
+			productReference = 0221ECB21FA8BC7200ECDA7E /* Wifi Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0221ECAA1FA8BC7200ECDA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tizeti Networks Limited";
+				TargetAttributes = {
+					0221ECB11FA8BC7200ECDA7E = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0221ECAD1FA8BC7200ECDA7E /* Build configuration list for PBXProject "Wifi Tracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0221ECA91FA8BC7200ECDA7E;
+			productRefGroup = 0221ECB31FA8BC7200ECDA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0221ECB11FA8BC7200ECDA7E /* Wifi Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0221ECB01FA8BC7200ECDA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0221ECC01FA8BC7200ECDA7E /* LaunchScreen.storyboard in Resources */,
+				0221ECBB1FA8BC7200ECDA7E /* Main.storyboard in Resources */,
+				025C53121FBC8C4000BB3587 /* clustering.xcassets in Resources */,
+				025C53171FBC8C7400BB3587 /* Contents.json in Resources */,
+				02CD36CE1FCD90F500BD6633 /* Assets.xcassets in Resources */,
+				025C531D1FBCC3C000BB3587 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A9E63318F0F09C6331FF588 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wifi Tracker/Pods-Wifi Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DCKit/DCKit.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wifi Tracker/Pods-Wifi Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3F12787E0A1EF69C1E9A32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wifi Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D35E96358949315113FE6EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wifi Tracker/Pods-Wifi Tracker-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wifi Tracker/Pods-Wifi Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0221ECAE1FA8BC7200ECDA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0275CE041FC5D17300299697 /* SWRevealViewController.h in Sources */,
+				026A03F11FCC3DC80084B419 /* connectControllerView.swift in Sources */,
+				0275CE051FC5D17300299697 /* SWRevealViewController.m in Sources */,
+				02885FA31FC2F20500F4E83F /* GMUPoint.m in Sources */,
+				02885F901FC2F20500F4E83F /* GMUSimpleClusterAlgorithm.m in Sources */,
+				02885FA21FC2F20500F4E83F /* GMUPlacemark.m in Sources */,
+				020464DD1FC49CC200BC4F88 /* SearchResultsController.swift in Sources */,
+				02C709EA1FAA486000A09648 /* PublicMapViewController.swift in Sources */,
+				02885FA51FC2F20500F4E83F /* GMUStyle.m in Sources */,
+				02885F9D1FC2F20500F4E83F /* GMUKMLParser.m in Sources */,
+				02885F911FC2F20500F4E83F /* GMUWrappingDictionaryKey.m in Sources */,
+				02885F921FC2F20500F4E83F /* GMUClusterManager.m in Sources */,
+				0212EFF11FB3728000806444 /* XMLParser.swift in Sources */,
+				0272E0981FB07D55000A1318 /* MainMapwithNavigationViewController.swift in Sources */,
+				02885F9E1FC2F20500F4E83F /* GMUFeature.m in Sources */,
+				02885F8F1FC2F20500F4E83F /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */,
+				025D97E61FC70FA100470A7C /* browserWebKitViewController.swift in Sources */,
+				02885F941FC2F20500F4E83F /* GMUDefaultClusterIconGenerator.m in Sources */,
+				02885FA11FC2F20500F4E83F /* GMULineString.m in Sources */,
+				02885F9B1FC2F20500F4E83F /* GMUGeoJSONParser.m in Sources */,
+				025D97E21FC6CF6600470A7C /* userProfileController.swift in Sources */,
+				0298C4331FE957E90003E87D /* publicContactViewController.swift in Sources */,
+				02885F8E1FC2F20500F4E83F /* GMUGridBasedClusterAlgorithm.m in Sources */,
+				02885FA41FC2F20500F4E83F /* GMUPolygon.m in Sources */,
+				02885F9A1FC2F20500F4E83F /* GMUWeightedLatLng.m in Sources */,
+				02885F961FC2F20500F4E83F /* GQTPointQuadTree.m in Sources */,
+				0298C4351FE962BC0003E87D /* connectControllerPublicViewController.swift in Sources */,
+				02885F9F1FC2F20500F4E83F /* GMUGeometryCollection.m in Sources */,
+				02885F971FC2F20500F4E83F /* GQTPointQuadTreeChild.m in Sources */,
+				02885F9C1FC2F20500F4E83F /* GMUGeometryRenderer.m in Sources */,
+				02C709E61FA9C88C00A09648 /* Constant_Values.swift in Sources */,
+				020E53D21FA8E69900BE232F /* GetMacAddressClass.swift in Sources */,
+				0298C4311FE90DD20003E87D /* contactSignedInViewController.swift in Sources */,
+				0212EFF31FB37A9900806444 /* JSONParsing.swift in Sources */,
+				02EA29EE1FB765F700034778 /* Marker.swift in Sources */,
+				025D97E41FC70B3500470A7C /* paymentViewController.swift in Sources */,
+				02885F991FC2F20500F4E83F /* GMUHeatmapTileLayer.m in Sources */,
+				02C709E81FAA482400A09648 /* MapViewController.swift in Sources */,
+				02885F981FC2F20500F4E83F /* GMUGradient.m in Sources */,
+				02885FA01FC2F20500F4E83F /* GMUGroundOverlay.m in Sources */,
+				0272E09A1FB088E1000A1318 /* ViewController.swift in Sources */,
+				02885F951FC2F20500F4E83F /* GMUDefaultClusterRenderer.m in Sources */,
+				0221ECB61FA8BC7200ECDA7E /* AppDelegate.swift in Sources */,
+				02885F931FC2F20500F4E83F /* GMUStaticCluster.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0221ECB91FA8BC7200ECDA7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0221ECBA1FA8BC7200ECDA7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0221ECBE1FA8BC7200ECDA7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0221ECBF1FA8BC7200ECDA7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0221ECC21FA8BC7200ECDA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0221ECC31FA8BC7200ECDA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0221ECC51FA8BC7200ECDA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CDD128ECBDAF00C63705CB /* Pods-Wifi Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A736AB2K2N;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "Wifi Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tizeti.wifitracker.Wifi-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = googleMarkerHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0221ECC61FA8BC7200ECDA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451C5BFDE2729A937E13EBA9 /* Pods-Wifi Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A736AB2K2N;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "Wifi Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tizeti.wifitracker.Wifi-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = googleMarkerHeader.h;
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0221ECAD1FA8BC7200ECDA7E /* Build configuration list for PBXProject "Wifi Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0221ECC21FA8BC7200ECDA7E /* Debug */,
+				0221ECC31FA8BC7200ECDA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0221ECC41FA8BC7200ECDA7E /* Build configuration list for PBXNativeTarget "Wifi Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0221ECC51FA8BC7200ECDA7E /* Debug */,
+				0221ECC61FA8BC7200ECDA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0221ECAA1FA8BC7200ECDA7E /* Project object */;
+}
